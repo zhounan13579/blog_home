@@ -1,0 +1,33 @@
+html{
+  font-family: 'Courier New', Courier, monospace;
+  /* 根元素16px*62.5%=10px */
+  font-size: 62.5%;
+}
+body{
+  margin:0;
+}
+*{
+  box-sizing: border-box;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-weight: normal;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color: #333333;
+}
+img{
+  width:100%;
+}
+/* 清除浮动 */
+.clear::before{
+  content: '';
+  display:block;
+  clear: both;
+}

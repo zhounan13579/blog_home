@@ -1,0 +1,86 @@
+.header{
+  position: relative;
+  /* html根元素目前是10px，所以5rem就是50px */
+  height: 5rem;
+  background-color: #333333;
+  padding:0 1.5rem;
+}
+.header .logo{
+  float: left;
+  color: #ffffff;
+  /* 和header保持一致居中 */
+  line-height: 5rem;
+}
+.header .header-nav{
+  float: left;
+  height: 100%;
+  margin-left: 10rem;
+}
+.header .nav-list{
+  height: 100%;
+}
+.header .nav-item{
+  float: left;
+  width:15rem;
+}
+.header .nav-lk{
+  color: #eeeeee;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 5rem;
+}
+.header .fa-bars{
+  display:none;
+  float: right;
+  color:#ffffff;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+.banner{
+  position: relative;
+  /* 60个视口 */
+  height: 60vh;
+  background: url(../img/bgc.jpg) no-repeat center/cover;
+}
+.banner .avatar{
+  position: absolute;
+  top:50%;
+  left:  50%;
+  margin:-6.5rem 0 0 -6.5rem;
+  width: 13rem;
+  height: 22rem;
+}
+.banner .avatar img{
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  border:5px solid #ddd;
+  box-shadow: 0.5rem 0.8rem 1rem #333;
+}
+.banner .avatar .title{
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 0.1rem 0.3rem 0.5rem #000000;
+}
+.course-board{
+  width:120rem;
+  margin:50px auto;
+}
+.course-board .inner{
+  width:122rem;
+  margin-left: -1rem;
+}
+.course-board .course-card{
+  float: left;
+  width:25%;
+  padding:1rem;
+  border:0.1rem solid transparent;
+}
+.course-board .inner .course-card h1{
+  text-align: center;
+}
+.course-board .course-board:hover{
+  border-color: #ddd;
+}
